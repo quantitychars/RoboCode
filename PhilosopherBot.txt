@@ -33,7 +33,7 @@ public class PhilosopherBot extends Robot {
             }
 
             turnRight(30 + rand.nextInt(20));
-            turnGunRight(360); // Сканируем всё вокруг
+            turnGunRight(360); 
         }
     }
 
