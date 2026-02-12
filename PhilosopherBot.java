@@ -76,7 +76,7 @@ public class PhilosopherBot extends Robot {
         double turnAngle = Utils.normalRelativeAngleDegrees(angleToCenter - getHeading());
         
         turnRight(turnAngle);
-        ahead(150); // Мощный рывок к центру
+        ahead(150);
     }
 
     private boolean isInsideSafetyZone() {
